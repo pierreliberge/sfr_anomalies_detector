@@ -29,8 +29,8 @@ class DNSDataSampler:
         print(f"Échantillon sauvegardé dans {output_path}")
 
 if __name__ == "__main__":
-    input_file = r"C:\Users\Lia\OneDrive - Université Paris 1 Panthéon-Sorbonne\Bureau\MASTER 2\S2\NEXIALOG_PIERRE\SFR_ANOMALIES_DETECTOR\250327_tests_fixe_dns_sah_202412_202501.parquet"
-    output_file = r"C:\Users\Lia\OneDrive - Université Paris 1 Panthéon-Sorbonne\Bureau\MASTER 2\S2\NEXIALOG_PIERRE\SFR_ANOMALIES_DETECTOR\sample_data.parquet"
+    input_file = r"250327_tests_fixe_dns_sah_202412_202501.parquet"
+    output_file = r"sample_data.parquet"
 
     sampler = DNSDataSampler(input_file)
     sampler.load_data()
