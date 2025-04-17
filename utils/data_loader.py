@@ -4,7 +4,7 @@ from pathlib import Path
 class DNSDataLoader:
     def __init__(self):
         self.data_path = Path(
-            r"C:\Users\Lia\OneDrive - Université Paris 1 Panthéon-Sorbonne\Bureau\MASTER 2\S2\NEXIALOG_PIERRE\sfr_anomalies_detector\sample_data.parquet"
+            r"sample_data.parquet"
         )
         
     def load_data(self):
