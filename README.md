@@ -7,6 +7,7 @@ Application Streamlit pour analyser et détecter des anomalies réseaux SFR. Les
 1. **Cloner le dépôt** :
 
 git clone https://github.com/pierreliberge/sfr_anomalies_detector.git
+
 cd sfr_anomalies_detector
 
 2. **Ajouter le fichier de données** :
